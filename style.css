@@ -1,5 +1,11 @@
 /* You're welcome to change any of this! */
-* {
+body{background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+*{
     box-sizing: border-box;
 }
 
@@ -7,15 +13,18 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
+header{font-family: 'Antonio', sans-serif;}
 header, section {
     padding: 20px;
+    
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: darkgrey;
     padding-top: 40px;
     padding-bottom: 40px;
+   
 }
