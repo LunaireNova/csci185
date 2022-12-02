@@ -170,14 +170,19 @@ header .fa-search {
     background: #F0F0F0;
     border-radius: 20px;
     height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .artist-card > div {
     padding: 20px;
 }
 .artist-card img {
     border-radius: 50%;
+    
     /* width: 100%; */
-    margin: auto;
+    margin: 30px;
     max-height: 200px;
     max-width: 100%;
 }
@@ -186,7 +191,7 @@ header .fa-search {
     width: 20%;
     align-items: center;
     justify-items: center;
-    padding: 10px;
+    padding: 1  0px;
 }
 
 .album-card > div {
@@ -208,6 +213,7 @@ header .fa-search {
     width: 100%;
 }
 .album-card .footer {
+    
     display: flex;
     flex-direction: column;
 }
